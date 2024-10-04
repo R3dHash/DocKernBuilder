@@ -59,7 +59,7 @@ Include screenshots of the following steps:
 
 1. **DocKernBuilder tree project**
 
-    ![Docker Compose Running](./screenshots/docker_compose_running.png)
+    ![Docker Compose Running](./screenshots/tree_project.png)
 
 2. **Docker Compose running the build**
 
