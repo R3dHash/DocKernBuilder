@@ -1,0 +1,11 @@
+services:
+  kernel-builder:
+    build: .
+    container_name: kernel_builder
+    volumes:
+      - ./shared:/shared
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
